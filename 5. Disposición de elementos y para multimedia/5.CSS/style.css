@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 10px;
+}
+.fila1 {
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.fila2 {
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.fila1 :hover {filter: grayscale(80%);}
+.fila2 :hover {filter: grayscale(80%);}
